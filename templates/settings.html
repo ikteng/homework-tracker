@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/settings_style.css') }}">
+</head>
+<body>
+    <div class="side-nav">
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('settings') }}">Settings</a>
+        <a href="{{ url_for('logout') }}">Logout</a>
+        <button class="toggle-btn" id="toggleButton">☀️</button>
+    </div>
+
+    <div class="main-container">
+        <h2>Settings</h2>
+        {% if message %}
+            <div class="settings-message {{ message_type }}">{{ message }}</div>
+        {% endif %}
+        <form method="POST" action="{{ url_for('settings') }}">
+            <label>Select to Update:</label><br>
+            <button type="button" onclick="toggleFields('username')" style="margin-right: 10px;">Update Username</button>
+            <button type="button" onclick="toggleFields('password')" style="margin-right: 10px;">Update Password</button>
+            <button type="button" onclick="toggleFields('email')">Update Email</button>
+            
+            <div id="username_field" style="margin-top: 20px; display: none;">
+                <label for="username">New Username:</label><br>
+                <input type="text" id="username" name="username"><br>
+            </div>
+
+            <div id="password_field" style="margin-top: 20px; display: none;">
+                <label for="password">New Password:</label><br>
+                <input type="password" id="password" name="password"><br>
+            </div>
+
+            <div id="email_field" style="margin-top: 20px; display: none;">
+                <label for="email">New Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+            </div>
+
+            <button type="submit">Update</button>
+        </form>
+    </div>
+    
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            // Store the preference in localStorage
+            const darkModeEnabled = document.body.classList.contains('dark-mode');
+            localStorage.setItem('darkMode', darkModeEnabled);
+        }
+
+        // On page load, check localStorage for dark mode preference
+        document.addEventListener('DOMContentLoaded', function() {
+            const darkModePreference = localStorage.getItem('darkMode') === 'true';
+            if (darkModePreference) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('toggleButton').textContent = '🌑'; // Set button to moon icon
+            }
+        });
+
+        // Toggle button event listener
+        document.getElementById('toggleButton').addEventListener('click', function() {
+            toggleDarkMode(); // Call the toggle function
+            if (this.textContent === '☀️') {
+                this.textContent = '🌑'; // Change to moon icon
+            } else {
+                this.textContent = '☀️'; // Change back to sun icon
+            }
+        });
+
+        function toggleFields(option) {
+            document.getElementById('username_field').style.display = (option === 'username') ? 'block' : 'none';
+            document.getElementById('password_field').style.display = (option === 'password') ? 'block' : 'none';
+            document.getElementById('email_field').style.display = (option === 'email') ? 'block' : 'none';
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+/* settings_style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background */
+    margin: 0;
+    display: flex;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+body.dark-mode {
+    background-color: #1e1e1e; /* Dark background */
+    color: #f0f0f0; /* Light text */
+}
+
+.h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+body.dark-mode .h2 {
+    color: #f0f0f0; /* Light heading color */
+}
+
+.side-nav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333; /* Dark sidebar */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body.dark-mode .side-nav {
+    background-color: #2c2c2c; /* Darker sidebar */
+}
+
+.side-nav a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.side-nav a:hover {
+    background-color: #28832d;
+}
+
+body.dark-mode .side-nav a {
+    color: #f0f0f0; /* Light link color */
+}
+
+.main-container {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items */
+}
+
+form {
+    width: 100%; /* Full width */
+    max-width: 500px; /* Max width for form */
+    background-color: #ffffff; /* Light form background */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Padding around form elements */
+}
+
+body.dark-mode form {
+    background-color: #2a2a2a; /* Dark form background */
+}
+
+label {
+    display: block;
+    color: #555555; /* Dark label color */
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+body.dark-mode label {
+    color: #f0f0f0; /* Light label color */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px;
+    font-size: 18px;
+    transition: border-color 0.3s ease;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode input[type="password"],
+body.dark-mode input[type="email"] {
+    background-color: #333; /* Dark input background */
+    border: 1px solid #444; /* Darker border */
+    color: #f0f0f0; /* Light input text */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+}
+
+button[type="button"] {
+    background-color: #f0f0f0; /* Light button background */
+    color: #333; /* Dark button text */
+    border: 1px solid #ccc; /* Light border */
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px 0; /* Space between buttons */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+body.dark-mode button[type="button"] {
+    background-color: #444; /* Dark button background */
+    color: #f0f0f0; /* Light button text */
+    border: 1px solid #555; /* Slightly lighter border */
+}
+
+button[type="button"]:hover {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+body.dark-mode button[type="button"]:hover {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Green submit button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #28832d; /* Darker green on hover */
+}
+
+.settings-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555; /* Dark message color */
+    text-align: center;
+}
+
+body.dark-mode .settings-message {
+    color: #f0f0f0; /* Light message color */
+}
+
+.toggle-btn {
+    background-color: transparent; /* Change to transparent */
+    color: #4CAF50; /* Set text color */
+    font-size: 30px;
+}
+
+.toggle-btn:hover {
+    background-color: rgba(72, 187, 72, 0.2); /* Light green background on hover */
+}
+
+.dark-mode .toggle-btn {
+    background-color: transparent; /* Change to transparent */
+    color: #4CAF50; /* Set text color */
+    font-size: 30px;
+}
+
+.dark-mode .toggle-btn:hover {
+    background-color: rgba(72, 187, 72, 0.2); /* Light green background on hover */
+}
+
+.settings-message {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.settings-message.success {
+    color: #4CAF50;
+}
+
+.settings-message.error {
+    color: #f44336;
+}

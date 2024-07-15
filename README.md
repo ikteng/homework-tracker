@@ -69,7 +69,10 @@ This Homework Tracker program is a Flask-based web application designed to help 
 3. generate the requirements.txt file (pip freeze > requirements.txt)
 4. verify installation (pip list)
 
-## Executable File
+## Creating Desktop application
+I used pywebview to create this desktop application with a webview that can display my Flask application
+
+## Creating Executable File
 I used PyInstaller to create the executable.
 1. install pyinstaller: pip install pyinstaller
 2. create a .spec file & the executable : pyinstaller --onefile app.py

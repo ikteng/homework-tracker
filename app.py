@@ -9,7 +9,7 @@ app.config['SECRET_KEY'] = 'your_secret_key'
 bcrypt = Bcrypt(app)
 scheduler = APScheduler()  # Initialize the scheduler
 
-DATABASE = 'homework tracker/homework.db'
+DATABASE = 'homework.db'
 
 def get_db():
     db = getattr(g, '_database', None)

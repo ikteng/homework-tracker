@@ -3,6 +3,8 @@ import sqlite3
 from flask_bcrypt import Bcrypt
 from datetime import datetime
 from flask_apscheduler import APScheduler
+import webview
+from threading import Thread
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
@@ -211,4 +213,13 @@ def settings():
     return render_template('settings.html', user=user, message=message, message_type=message_type)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    def run_flask_app():
+        app.run(port=5000)
+
+    # Run Flask app in a separate thread
+    flask_thread = Thread(target=run_flask_app)
+    flask_thread.start()
+
+    # Create a webview window to display the Flask app
+    webview.create_window('Homework Tracker', 'http://localhost:5000')
+    webview.start()

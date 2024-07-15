@@ -11,6 +11,14 @@
   ('_compression',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compression.py',
    'PYMODULE'),
+  ('_distutils_hack',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
    'PYMODULE'),
@@ -23,6 +31,9 @@
   ('_pyi_rth_utils',
    'c:\\python_projects\\homework '
    'tracker\\.venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
+  ('_sitebuiltins',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_sitebuiltins.py',
    'PYMODULE'),
   ('_strptime',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_strptime.py',
@@ -309,11 +320,82 @@
    'c:\\python_projects\\homework '
    'tracker\\.venv\\Lib\\site-packages\\blinker\\base.py',
    'PYMODULE'),
+  ('bottle',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\bottle.py',
+   'PYMODULE'),
   ('bz2',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bz2.py',
    'PYMODULE'),
   ('calendar',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('cffi',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\__init__.py',
+   'PYMODULE'),
+  ('cffi._imp_emulation',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\_imp_emulation.py',
+   'PYMODULE'),
+  ('cffi._shimmed_dist_utils',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\_shimmed_dist_utils.py',
+   'PYMODULE'),
+  ('cffi.api',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\api.py',
+   'PYMODULE'),
+  ('cffi.cffi_opcode',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\cffi_opcode.py',
+   'PYMODULE'),
+  ('cffi.commontypes',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\commontypes.py',
+   'PYMODULE'),
+  ('cffi.cparser',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\cparser.py',
+   'PYMODULE'),
+  ('cffi.error',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\error.py',
+   'PYMODULE'),
+  ('cffi.ffiplatform',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\ffiplatform.py',
+   'PYMODULE'),
+  ('cffi.lock',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\lock.py',
+   'PYMODULE'),
+  ('cffi.model',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\model.py',
+   'PYMODULE'),
+  ('cffi.pkgconfig',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\pkgconfig.py',
+   'PYMODULE'),
+  ('cffi.recompiler',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\recompiler.py',
+   'PYMODULE'),
+  ('cffi.vengine_cpy',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\vengine_cpy.py',
+   'PYMODULE'),
+  ('cffi.vengine_gen',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\vengine_gen.py',
+   'PYMODULE'),
+  ('cffi.verifier',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\cffi\\verifier.py',
+   'PYMODULE'),
+  ('cgi',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\cgi.py',
    'PYMODULE'),
   ('click',
    'c:\\python_projects\\homework '
@@ -378,6 +460,69 @@
   ('click.utils',
    'c:\\python_projects\\homework '
    'tracker\\.venv\\Lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('clr',
+   'c:\\python_projects\\homework tracker\\.venv\\Lib\\site-packages\\clr.py',
+   'PYMODULE'),
+  ('clr_loader',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\__init__.py',
+   'PYMODULE'),
+  ('clr_loader.ffi',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\__init__.py',
+   'PYMODULE'),
+  ('clr_loader.ffi.hostfxr',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\hostfxr.py',
+   'PYMODULE'),
+  ('clr_loader.ffi.mono',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\mono.py',
+   'PYMODULE'),
+  ('clr_loader.ffi.netfx',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\netfx.py',
+   'PYMODULE'),
+  ('clr_loader.hostfxr',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\hostfxr.py',
+   'PYMODULE'),
+  ('clr_loader.mono',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\mono.py',
+   'PYMODULE'),
+  ('clr_loader.netfx',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\netfx.py',
+   'PYMODULE'),
+  ('clr_loader.types',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\types.py',
+   'PYMODULE'),
+  ('clr_loader.util',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\util\\__init__.py',
+   'PYMODULE'),
+  ('clr_loader.util.clr_error',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\util\\clr_error.py',
+   'PYMODULE'),
+  ('clr_loader.util.coreclr_errors',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\util\\coreclr_errors.py',
+   'PYMODULE'),
+  ('clr_loader.util.find',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\util\\find.py',
+   'PYMODULE'),
+  ('clr_loader.util.hostfxr_errors',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\util\\hostfxr_errors.py',
+   'PYMODULE'),
+  ('clr_loader.util.runtime_spec',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\clr_loader\\util\\runtime_spec.py',
    'PYMODULE'),
   ('cmd',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\cmd.py',
@@ -445,8 +590,26 @@
   ('ctypes',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\__init__.py',
    'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
   ('ctypes._endian',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\util.py',
    'PYMODULE'),
   ('ctypes.wintypes',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\wintypes.py',
@@ -746,6 +909,9 @@
    'PYMODULE'),
   ('http.cookiejar',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\cookies.py',
    'PYMODULE'),
   ('http.server',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py',
@@ -1056,6 +1222,9 @@
   ('opcode',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\opcode.py',
    'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\optparse.py',
+   'PYMODULE'),
   ('packaging',
    'c:\\python_projects\\homework '
    'tracker\\.venv\\Lib\\site-packages\\packaging\\__init__.py',
@@ -1309,8 +1478,56 @@
   ('pprint',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pprint.py',
    'PYMODULE'),
+  ('proxy_tools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\proxy_tools\\__init__.py',
+   'PYMODULE'),
   ('py_compile',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('pycparser',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.ast_transforms',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\ast_transforms.py',
+   'PYMODULE'),
+  ('pycparser.c_ast',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\c_ast.py',
+   'PYMODULE'),
+  ('pycparser.c_lexer',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\c_lexer.py',
+   'PYMODULE'),
+  ('pycparser.c_parser',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\c_parser.py',
+   'PYMODULE'),
+  ('pycparser.lextab',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\lextab.py',
+   'PYMODULE'),
+  ('pycparser.ply',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\ply\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.ply.lex',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\ply\\lex.py',
+   'PYMODULE'),
+  ('pycparser.ply.yacc',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\ply\\yacc.py',
+   'PYMODULE'),
+  ('pycparser.plyparser',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\plyparser.py',
+   'PYMODULE'),
+  ('pycparser.yacctab',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pycparser\\yacctab.py',
    'PYMODULE'),
   ('pydoc',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc.py',
@@ -1320,6 +1537,10 @@
    'PYMODULE'),
   ('pydoc_data.topics',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pythonnet',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\pythonnet\\__init__.py',
    'PYMODULE'),
   ('pytz',
    'c:\\python_projects\\homework '
@@ -1362,6 +1583,710 @@
   ('selectors',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\selectors.py',
    'PYMODULE'),
+  ('setuptools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._core_metadata',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_core_metadata.py',
+   'PYMODULE'),
+  ('setuptools._distutils',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils._collections',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_collections.py',
+   'PYMODULE'),
+  ('setuptools._distutils._functools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_functools.py',
+   'PYMODULE'),
+  ('setuptools._distutils._itertools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._distutils._log',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_log.py',
+   'PYMODULE'),
+  ('setuptools._distutils._macos_compat',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_macos_compat.py',
+   'PYMODULE'),
+  ('setuptools._distutils._modified',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_modified.py',
+   'PYMODULE'),
+  ('setuptools._distutils._msvccompiler',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging._elffile',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging._manylinux',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging._musllinux',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging._parser',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging._structures',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging._tokenizer',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging.markers',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging.metadata',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging.requirements',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging.specifiers',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging.tags',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging.utils',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._distutils._vendor.packaging.version',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._distutils.archive_util',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.bcppcompiler',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\bcppcompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.ccompiler',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cmd',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command._framework_compat',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\_framework_compat.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist_dumb',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist_dumb.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist_rpm',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_clib',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_ext',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_py',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_scripts',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.check',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\check.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.clean',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\clean.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.config',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\config.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.install',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\install.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.install_data',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.install_egg_info',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\install_egg_info.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.install_headers',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.install_lib',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\install_lib.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.install_scripts',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.register',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\register.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.sdist',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.upload',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\upload.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py38',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py38.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py39',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._distutils.config',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\config.py',
+   'PYMODULE'),
+  ('setuptools._distutils.core',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cygwinccompiler',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\cygwinccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.debug',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\debug.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dep_util',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dep_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dir_util',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dir_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dist',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.errors',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.extension',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools._distutils.fancy_getopt',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('setuptools._distutils.file_util',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\file_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.filelist',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\filelist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.log',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\log.py',
+   'PYMODULE'),
+  ('setuptools._distutils.msvc9compiler',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\msvc9compiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.msvccompiler',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.spawn',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\spawn.py',
+   'PYMODULE'),
+  ('setuptools._distutils.sysconfig',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('setuptools._distutils.text_file',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\text_file.py',
+   'PYMODULE'),
+  ('setuptools._distutils.unixccompiler',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.util',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.version',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\version.py',
+   'PYMODULE'),
+  ('setuptools._distutils.versionpredicate',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('setuptools._distutils.zosccompiler',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\zosccompiler.py',
+   'PYMODULE'),
+  ('setuptools._entry_points',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_entry_points.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools._importlib',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_importlib.py',
+   'PYMODULE'),
+  ('setuptools._itertools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._normalization',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_normalization.py',
+   'PYMODULE'),
+  ('setuptools._path',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_path.py',
+   'PYMODULE'),
+  ('setuptools._reqs',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_reqs.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._adapters',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._collections',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._compat',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._functools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._itertools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._meta',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._py39compat',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_py39compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._text',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_resources',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_resources._adapters',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources\\_adapters.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_resources._common',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources\\_common.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_resources._compat',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_resources._itertools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_resources._legacy',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources\\_legacy.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_resources.abc',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources\\abc.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_resources.readers',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources\\readers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_resources.simple',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources\\simple.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.context',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.functools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.text',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.more',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('setuptools._vendor.ordered_set',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._elffile',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._manylinux',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._musllinux',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._parser',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._tokenizer',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.metadata',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._parser',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._re',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_re.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._types',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_types.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.macosx_libfile',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\macosx_libfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.metadata',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\metadata.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.util',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\util.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.wheelfile',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\wheelfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command._requirestxt',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\command\\_requirestxt.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_wheel',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.build',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.compat',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py310',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools.compat.py39',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._apply_pyprojecttoml',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\_apply_pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.error_reporting',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\error_reporting.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.extra_validations',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\extra_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_exceptions',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_exceptions.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_validations',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.formats',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\formats.py',
+   'PYMODULE'),
+  ('setuptools.config.expand',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\expand.py',
+   'PYMODULE'),
+  ('setuptools.config.pyprojecttoml',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config.setupcfg',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\config\\setupcfg.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.discovery',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\discovery.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.errors',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\errors.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.extern',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\extern\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.logging',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\logging.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools.warnings',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\warnings.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
   ('shlex',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shlex.py',
    'PYMODULE'),
@@ -1370,6 +2295,9 @@
    'PYMODULE'),
   ('signal',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\signal.py',
+   'PYMODULE'),
+  ('site',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site.py',
    'PYMODULE'),
   ('six',
    'c:\\python_projects\\homework tracker\\.venv\\Lib\\site-packages\\six.py',
@@ -1428,6 +2356,18 @@
   ('tokenize',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tokenize.py',
    'PYMODULE'),
+  ('tomllib',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\__init__.py',
+   'PYMODULE'),
+  ('tomllib._parser',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\_parser.py',
+   'PYMODULE'),
+  ('tomllib._re',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\_re.py',
+   'PYMODULE'),
+  ('tomllib._types',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\_types.py',
+   'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
    'PYMODULE'),
@@ -1436,6 +2376,10 @@
    'PYMODULE'),
   ('typing',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\typing.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\typing_extensions.py',
    'PYMODULE'),
   ('tzdata',
    'c:\\python_projects\\homework '
@@ -1563,6 +2507,9 @@
   ('unittest.main',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\main.py',
    'PYMODULE'),
+  ('unittest.mock',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\mock.py',
+   'PYMODULE'),
   ('unittest.result',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\result.py',
    'PYMODULE'),
@@ -1598,6 +2545,142 @@
    'PYMODULE'),
   ('webbrowser',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('webview',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\__init__.py',
+   'PYMODULE'),
+  ('webview.dom',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\dom\\__init__.py',
+   'PYMODULE'),
+  ('webview.dom.classlist',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\dom\\classlist.py',
+   'PYMODULE'),
+  ('webview.dom.dom',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\dom\\dom.py',
+   'PYMODULE'),
+  ('webview.dom.element',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\dom\\element.py',
+   'PYMODULE'),
+  ('webview.dom.event',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\dom\\event.py',
+   'PYMODULE'),
+  ('webview.dom.propsdict',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\dom\\propsdict.py',
+   'PYMODULE'),
+  ('webview.errors',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\errors.py',
+   'PYMODULE'),
+  ('webview.event',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\event.py',
+   'PYMODULE'),
+  ('webview.guilib',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\guilib.py',
+   'PYMODULE'),
+  ('webview.http',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\http.py',
+   'PYMODULE'),
+  ('webview.js',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\js\\__init__.py',
+   'PYMODULE'),
+  ('webview.js.alert',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\js\\alert.py',
+   'PYMODULE'),
+  ('webview.js.api',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\js\\api.py',
+   'PYMODULE'),
+  ('webview.js.css',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\js\\css.py',
+   'PYMODULE'),
+  ('webview.js.dom_json',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\js\\dom_json.py',
+   'PYMODULE'),
+  ('webview.js.events',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\js\\events.py',
+   'PYMODULE'),
+  ('webview.js.mouse',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\js\\mouse.py',
+   'PYMODULE'),
+  ('webview.js.npo',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\js\\npo.py',
+   'PYMODULE'),
+  ('webview.js.polyfill',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\js\\polyfill.py',
+   'PYMODULE'),
+  ('webview.localization',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\localization.py',
+   'PYMODULE'),
+  ('webview.menu',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\menu.py',
+   'PYMODULE'),
+  ('webview.platforms',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\platforms\\__init__.py',
+   'PYMODULE'),
+  ('webview.platforms.android',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\platforms\\android.py',
+   'PYMODULE'),
+  ('webview.platforms.cef',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\platforms\\cef.py',
+   'PYMODULE'),
+  ('webview.platforms.cocoa',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\platforms\\cocoa.py',
+   'PYMODULE'),
+  ('webview.platforms.edgechromium',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\platforms\\edgechromium.py',
+   'PYMODULE'),
+  ('webview.platforms.gtk',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\platforms\\gtk.py',
+   'PYMODULE'),
+  ('webview.platforms.mshtml',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\platforms\\mshtml.py',
+   'PYMODULE'),
+  ('webview.platforms.qt',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\platforms\\qt.py',
+   'PYMODULE'),
+  ('webview.platforms.winforms',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\platforms\\winforms.py',
+   'PYMODULE'),
+  ('webview.screen',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\screen.py',
+   'PYMODULE'),
+  ('webview.util',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\util.py',
+   'PYMODULE'),
+  ('webview.window',
+   'c:\\python_projects\\homework '
+   'tracker\\.venv\\Lib\\site-packages\\webview\\window.py',
    'PYMODULE'),
   ('werkzeug',
    'c:\\python_projects\\homework '
@@ -1783,8 +2866,41 @@
    'c:\\python_projects\\homework '
    'tracker\\.venv\\Lib\\site-packages\\werkzeug\\wsgi.py',
    'PYMODULE'),
+  ('wsgiref',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\wsgiref\\__init__.py',
+   'PYMODULE'),
+  ('wsgiref.handlers',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\wsgiref\\handlers.py',
+   'PYMODULE'),
+  ('wsgiref.headers',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\wsgiref\\headers.py',
+   'PYMODULE'),
+  ('wsgiref.simple_server',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\wsgiref\\simple_server.py',
+   'PYMODULE'),
+  ('wsgiref.types',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\wsgiref\\types.py',
+   'PYMODULE'),
+  ('wsgiref.util',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\wsgiref\\util.py',
+   'PYMODULE'),
   ('xml',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\cElementTree.py',
    'PYMODULE'),
   ('xml.parsers',
    'C:\\Users\\liawi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\parsers\\__init__.py',

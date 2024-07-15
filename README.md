@@ -59,3 +59,18 @@ This Homework Tracker program is a Flask-based web application designed to help 
   ![image](https://github.com/user-attachments/assets/7d2e5dc9-c3a8-41f0-86ea-9ea4b22fd757)
 
 - Dynamic Updates: Uses JavaScript to dynamically update assignment statuses, handle modals, and search results without reloading the page.
+
+## Creating the requirements.txt
+1. create the virtual environment by opening the Command Palette (Ctrl + Shift + P)
+   - choose Python: Select Interpreter (make sure you already have python downloaded)
+   - choose +create new environment, create a new .venv, choose python + version
+   - you may need to activate the virtual environment (source .venv/bin/activate)
+2. install requirement packages using pip install
+3. generate the requirements.txt file (pip freeze > requirements.txt)
+4. verify installation (pip list)
+
+## Executable File
+I used PyInstaller to create the executable.
+1. install pyinstaller: pip install pyinstaller
+2. create a .spec file & the executable : pyinstaller --onefile app.py
+The executable is placed in the dist directory. 

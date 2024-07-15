@@ -1,10 +1,12 @@
 from flask import Flask, request, jsonify, g, session, redirect, url_for, render_template
 import sqlite3
 from flask_bcrypt import Bcrypt
-from datetime import datetime
 from flask_apscheduler import APScheduler
 import webview
-from threading import Thread
+from threading import Thread, Event
+import sys
+import logging
+import os
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
@@ -207,19 +209,30 @@ def settings():
             message_type = "success"
         except Exception as e:
             db.rollback()
+            logging.error(f"Error updating settings: {e}")
             message = "An error occurred while updating your settings."
             message_type = "error"
 
     return render_template('settings.html', user=user, message=message, message_type=message_type)
 
-if __name__ == '__main__':
-    def run_flask_app():
-        app.run(port=5000)
+def run_flask_app():
+    print("Starting Flask server...")
+    app.run(port=5000, debug=True, use_reloader=False)
 
+def start_webview():
+    try:
+        webview.create_window('Homework Tracker', 'http://localhost:5000')
+        webview.start()
+    except KeyboardInterrupt:
+        print("Webview interrupted.")
+
+if __name__ == '__main__':
     # Run Flask app in a separate thread
     flask_thread = Thread(target=run_flask_app)
     flask_thread.start()
 
-    # Create a webview window to display the Flask app
-    webview.create_window('Homework Tracker', 'http://localhost:5000')
-    webview.start()
+    # Create and start webview window
+    start_webview()
+
+    # Ensure Flask thread shuts down properly
+    flask_thread.join()

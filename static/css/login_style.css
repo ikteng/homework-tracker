@@ -24,14 +24,14 @@ body {
 h1 {
     text-align: center;
     color: #333333;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
     color: #555555;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 input[type="text"],
@@ -42,7 +42,7 @@ input[type="email"] {
     margin-bottom: 20px;
     border: 1px solid #cccccc;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 button[type="submit"] {
@@ -50,7 +50,7 @@ button[type="submit"] {
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size:35px;
+    font-size:30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

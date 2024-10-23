@@ -34,27 +34,26 @@
         <div id="search-results-container">
             <!-- Search results will be dynamically inserted here -->
         </div>        
-        
+
         <h2>Dashboard</h2>
-        <div class="assignments-container">
-            {% for assignment in assignments %}
-                <div class="card" id="assignment_{{ assignment.id }}">
-                    <strong>{{ assignment.subject }}</strong><br>
-                    <p>{{ assignment.description }}</p>
-                    <p>Due Date: {{ assignment.due_date }}</p>
-                    <p>Due Time: {{ assignment.due_time }}</p>
-                    {% if assignment.completed %}
-                        <span id="assignment_{{ assignment.id }}_status" class="completed">Completed</span>
-                        <button class="complete-btn" onclick="markCompleted({{ assignment.id }}, true)">❌</button>
-                    {% else %}
-                        <span id="assignment_{{ assignment.id }}_status" class="pending">Pending</span>
-                        <button class="complete-btn" onclick="markCompleted({{ assignment.id }}, false)">✔️</button>
-                    {% endif %}
-                    <button class="edit-btn" onclick="openEditModal({{ assignment.id }}, '{{ assignment.subject }}', '{{ assignment.description }}', '{{ assignment.due_date }}', '{{ assignment.due_time }}')">✏️</button>
-                    <button class="delete-btn" onclick="deleteAssignment({{ assignment.id }})">🗑️</button>
-                </div>
-            {% endfor %}
-        </div>
+            <div class="assignments-container">
+                {% for assignment in assignments %}
+                    <div class="card" id="assignment_{{ assignment.id }}">
+                        <strong>{{ assignment.subject }}</strong><br>
+                        <p>{{ assignment.description }}</p>
+                        <p>Due Date & Time: {{ assignment.due_date }}, {{ assignment.due_time }}</p>
+                        {% if assignment.completed %}
+                            <span id="assignment_{{ assignment.id }}_status" class="completed">Completed</span>
+                            <button class="complete-btn" onclick="markCompleted({{ assignment.id }}, true)">❌</button>
+                        {% else %}
+                            <span id="assignment_{{ assignment.id }}_status" class="pending">{{ assignment.status }}</span>
+                            <button class="complete-btn" onclick="markCompleted({{ assignment.id }}, false)">✔️</button>
+                        {% endif %}
+                        <button class="edit-btn" onclick="openEditModal({{ assignment.id }}, '{{ assignment.subject }}', '{{ assignment.description }}', '{{ assignment.due_date }}', '{{ assignment.due_time }}')">✏️</button>
+                        <button class="delete-btn" onclick="deleteAssignment({{ assignment.id }})">🗑️</button>
+                    </div>
+                {% endfor %}
+            </div>
 
         <!-- Calendar Container -->
         <div id="calendar-container">

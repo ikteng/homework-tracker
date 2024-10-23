@@ -7,16 +7,16 @@ body {
 }
 
 .h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .side-nav {
     height: 100%;
-    width: 250px;
+    width: 200px;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@ body {
 .side-nav a {
     padding: 15px 25px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     display: block;
     text-align: center;
@@ -55,7 +55,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
     border-radius: 8px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .assignments-container {
@@ -98,12 +98,12 @@ body {
 
 .completed {
     color: green;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .pending {
     color: red;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 hr {
@@ -171,7 +171,7 @@ hr {
 .close {
     color: #aaa;
     align-self: flex-end;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -187,7 +187,7 @@ label {
     display: block;
     margin-bottom: 10px;
     color: #555555;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 input[type="text"],
@@ -199,7 +199,7 @@ input[type="time"] {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 textarea {
@@ -324,7 +324,7 @@ button[type="submit"]:hover {
     color: white; /* White text */
     border: none; /* Remove border */
     padding: 10px 20px; /* Padding */
-    font-size: 25px; /* Font size */
+    font-size: 20px; /* Font size */
     text-align: center; /* Center text */
     border-radius: 8px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor */
@@ -346,6 +346,17 @@ button[type="submit"]:hover {
 #calendar {
     max-width: 900px;
     margin: 0 auto;  /* Center the calendar */
+    position: relative; /* Ensure positioning context */
+}
+
+.fc-event {
+    box-sizing: border-box; /* Ensure padding/borders included in size */
+    width: 90%; /* Adjust width as needed */
+    height: auto; /* Allow height to adjust automatically */
+    padding: 5px; /* Add some padding */
+    overflow: hidden; /* Hide overflow if necessary */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
 }
 
 .completed-event .fc-event-title,

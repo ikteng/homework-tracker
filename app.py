@@ -7,13 +7,14 @@ from threading import Thread, Event
 import sys
 import logging
 import os
+from datetime import datetime
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
 bcrypt = Bcrypt(app)
 scheduler = APScheduler()  # Initialize the scheduler
 
-DATABASE = 'homework.db'
+DATABASE = os.path.join(os.path.dirname(__file__), 'homework.db')
 
 def get_db():
     db = getattr(g, '_database', None)
@@ -65,12 +66,12 @@ def index():
     sort_by = request.args.get('sort_by', 'due_date, due_time')
     db = get_db()
     user_id = session.get('user_id')
-    
+
     if not user_id:
         return redirect(url_for('login'))
 
     order_clause = f"ORDER BY {sort_by} ASC"
-    
+
     if search_query:
         assignments = db.execute(f'''
             SELECT * FROM assignments
@@ -83,10 +84,47 @@ def index():
             WHERE user_id = ?
             {order_clause}
         ''', (user_id,)).fetchall()
-    
+
     user = db.execute('SELECT * FROM users WHERE id = ?', (user_id,)).fetchone()
-    
-    return render_template('index.html', user=user, assignments=assignments)
+
+    # Get the current date and time
+    current_datetime = datetime.now()
+    current_date = current_datetime.date()
+
+    # Convert assignments to a list of dictionaries and calculate status
+    assignments_list = []
+    for assignment in assignments:
+        # Adjusted the due time format if it's missing seconds
+        due_datetime = datetime.strptime(assignment['due_date'] + ' ' + assignment['due_time'], '%Y-%m-%d %H:%M')
+        due_date = due_datetime.date()
+        
+        # Calculate time left
+        time_left = (due_datetime - current_datetime)
+        days_left = time_left.days
+        hours_left, seconds = divmod(time_left.seconds, 3600)
+        minutes_left, _ = divmod(seconds, 60)
+
+        # Determine assignment status
+        if days_left == 0 and hours_left >= 0:  # Due today
+            status = f"Due in {hours_left} hours and {minutes_left} minutes"
+        elif days_left == 1:
+            status = f"Due in {hours_left} hours and {minutes_left} minutes"
+        elif days_left < 0:
+            status = f"Overdue by {-days_left} days"
+        else:
+            status = f"Due in {days_left} days"
+
+        assignments_list.append({
+            'id': assignment['id'],
+            'subject': assignment['subject'],
+            'description': assignment['description'],
+            'due_date': due_date,
+            'due_time': assignment['due_time'],
+            'completed': assignment['completed'],
+            'status': status  # Include status in the dictionary
+        })
+
+    return render_template('index.html', user=user, assignments=assignments_list, current_date=current_date)
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -94,17 +132,24 @@ def register():
         username = request.form['username']
         password = request.form['password']
         
+        # Hash the password
         password_hash = bcrypt.generate_password_hash(password).decode('utf-8')
         
         db = get_db()
         try:
+            # Insert the new user into the database
             db.execute('INSERT INTO users (username, password_hash) VALUES (?, ?)', (username, password_hash))
             db.commit()
             return redirect(url_for('login'))
         except sqlite3.IntegrityError:
             return render_template('register.html', error="Username already exists.")
+        except Exception as e:
+            db.rollback()  # Rollback on error
+            logging.error(f"Error creating user: {e}")
+            return render_template('register.html', error="An error occurred during registration.")
     
     return render_template('register.html')
+
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -221,7 +266,10 @@ def run_flask_app():
 
 def start_webview():
     try:
-        webview.create_window('Homework Tracker', 'http://localhost:5000')
+        # Create a window with the desired properties
+        webview.create_window('Homework Tracker', 'http://localhost:5000', resizable=True, width=1920, height=1080)
+        
+        # Start the webview
         webview.start()
     except KeyboardInterrupt:
         print("Webview interrupted.")
